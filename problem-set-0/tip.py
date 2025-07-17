@@ -1,0 +1,27 @@
+"""In the United States, it's customary to leave a tip for your server
+after dining in a restaurant, typically an amount equal to 15% or more
+of your meal's cost.
+This script assumes that the user will input values in the expected formats
+(formatted as $##.##, wherein each # is a decimal digit for the cost of the meal,
+and formatted as ##%, wherein each # is a decimal digit for the percentage to tip)."""
+
+def main() -> None:
+    dollars = dollars_to_float(input("How much was the meal? "))
+    percent = percent_to_float(input("What percentage would you like to tip? "))
+    tip = dollars * percent
+    print(f"Leave ${tip:.2f}")
+
+def dollars_to_float(d : str) -> float:
+    """Accepts a str as input (formatted as $##.##, wherein each # is a decimal digit),
+    removes the leading $, and returns the amount as a float.
+    For instance, given $50.00 as input, it should return 50.0."""
+    return float(d.replace("$", ""))
+
+def percent_to_float(p : str) -> float:
+    """Accepts a str as input (formatted as ##%, wherein each # is a decimal digit),
+    removes the trailing %, and returns the percentage as a float.
+    For instance, given 15% as input, it should return 0.15."""
+    return float(p.replace("%", "")) / 100.0
+    
+if __name__ == "__main__":
+    main()
