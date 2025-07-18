@@ -1,4 +1,4 @@
-"""This script is takes user input and converts it to
+"""This program is takes user input and converts it to
 lowercase before printing it."""
 
 def main() -> None:

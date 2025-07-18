@@ -1,4 +1,4 @@
-"""This script takes user input and replaces each space
+"""This program takes user input and replaces each space
 with '...' before printing it."""
 
 def main() -> None:
