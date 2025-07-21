@@ -10,8 +10,7 @@ and returns the tip as a float.
 This program assumes that the user will input values in the expected
 formats (formatted as $##.##, wherein each # is a decimal digit for
 the cost of the meal, and formatted as ##%, wherein each # is a
-decimal digit for the percentage to tip).
-"""
+decimal digit for the percentage to tip)."""
 
 def main() -> None:
     dollars: float = dollars_to_float(input("How much was the meal? "))
