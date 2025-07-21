@@ -24,9 +24,9 @@ def dollars_to_float(d: str) -> float:
     removes the leading $, and returns the amount as a float.
     For instance, given $50.00 as input, it should return 50.0.
     Args:
-        d: (str) The input dollars string to convert.
+        d (str): The input dollars string to convert.
     Returns:
-        (float) The converted dollars float value."""
+        float: The converted dollars float value."""
     return float(d.replace("$", ""))
 
 def percent_to_float(p: str) -> float:
@@ -34,9 +34,9 @@ def percent_to_float(p: str) -> float:
     removes the trailing %, and returns the percentage as a float.
     For instance, given 15% as input, it should return 0.15.
     Args:
-        p: (str) The input percentage string to convert.
+        p (str): The input percentage string to convert.
     Returns:
-        (float) The converted percentage float value."""
+        float: The converted percentage float value."""
     return float(p.replace("%", "")) / 100.0
 
 if __name__ == "__main__":

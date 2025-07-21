@@ -13,9 +13,9 @@ that input, and prints the result."""
 def convert(text: str) -> str:
     """Convert ':)' to '🙂' and ':(' to '🙁' in the input text.
     Args:
-        text: (str) The input string to convert.
+        text (str): The input string to convert.
     Returns:
-        (str) The converted string with emojis."""
+        str: The converted string with emojis."""
     text = text.replace(":)", "🙂")
     text = text.replace(":(", "🙁")
     return text
