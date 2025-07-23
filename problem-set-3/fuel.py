@@ -78,7 +78,7 @@ def fractional_parts(fraction: str) -> tuple[int, int]:
         denominator: int
         numerator, denominator = map(int, fraction.split("/"))
     except Exception:
-        raise ValueError("Input must be two integers separated by '/'")
+        raise ValueError("fraction must be two integers separated by '/' (e.g., '1/2')")
     return numerator, denominator
 
 def fraction_to_percentage(fraction: str) -> float:
