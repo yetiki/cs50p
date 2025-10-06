@@ -16,39 +16,57 @@ specifications:
 """
 from fpdf import FPDF, Align
 
+class Shirtificate(FPDF):
+    def __init__(self, name: str="I"):
+        self.name: str = name
+        super().__init__(orientation="portrait", unit="mm", format="A4", font_cache_dir="DEPRECATED")
+        self._draw_page()
+
+    @property
+    def name(self) -> str:
+        return self._name
+    
+    @name.setter
+    def name(self, name: str) -> None:
+        self._name: str = name.strip()
+
+        if hasattr(self, "pages"): # if name is updated
+            # clear previous pages
+            super().__init__(orientation="portrait", unit="mm", format="A4")
+
+            # draw a fresh page using the updated name
+            self._draw_page()
+    
+    def _draw_page(self) -> None:
+        super().add_page()
+        
+        # set title font style
+        self.set_font("helvetica", size=48)
+
+        # add title centred horizontally
+        self.set_y(28.5) # adjust y position to be 28.5 mm from top
+        self.cell(w=0, h=20, text="CS50 Shirtificate", align=Align.C)
+
+        # add shirt image centered horizontally
+        self.image("shirtificate.png", x=Align.C, y=70, w=190, keep_aspect_ratio=True)
+
+        # set t-shirt text font style
+        self.set_font("helvetica", size=24)
+
+        # add t-shirt text on top of t-shirt in white text
+        self.set_text_color(255, 255, 255)
+        self.set_y(126)  # adjust y position to be on top of the shirt
+        self.cell(w=0, h=20, text=f"{self.name} took CS50", align=Align.C)
+
 def main() -> None:
-    # prompt the user for their name
+    # prompt user for their name
     name: str = input("Name: ").strip()
 
-    if name == "":
-        name: str = "I"
+    # construct shirtificate pdf
+    shirtificate: Shirtificate = Shirtificate(name=name)
 
-    # construct a portrait A4 PDF 
-    pdf: FPDF = FPDF(orientation="P", unit="mm", format="A4")
-
-    # add a page to the PDF
-    pdf.add_page()
-
-    # set title font style
-    pdf.set_font("helvetica", size=48)
-
-    # add title centred horizontally
-    pdf.set_y(28.5) # adjust y position to be 28.5 mm from top
-    pdf.cell(w=0, h=20, text="CS50 Shirtificate", align=Align.C)
-
-    # add shirt image centered horizontally
-    pdf.image("shirtificate.png", x=Align.C, y=70, w=190, keep_aspect_ratio=True)
-
-    # set name font style
-    pdf.set_font("helvetica", size=24)
-
-    # add name on top of shirt in white text
-    pdf.set_text_color(255, 255, 255)
-    pdf.set_y(126)  # adjust y position to be on top of the shirt
-    pdf.cell(w=0, h=20, text=f"{name} took CS50", align=Align.C)
-
-    # output the PDF to a file
-    pdf.output("shirtificate.pdf")
+    # save shirtificate pdf
+    shirtificate.output("shirtificate.pdf")
 
 if __name__ == "__main__":
     main()
