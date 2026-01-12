@@ -1,5 +1,5 @@
 # CS50P Final Project
-## Chemical Spectra Sonifier (CSS)
+## Chemical Spectra Sonifier
 
 ### Overview
 
