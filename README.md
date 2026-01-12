@@ -29,36 +29,36 @@
 - [Outdated](https://github.com/yetiki/cs50p/blob/main/problem-set-3/outdated.py)
 
 ### 4. Libraries
-- [Emojize](https://github.com/yetiki/cs50p/blob/main/problem-set-3/fuel.py)
-- [Frank, Ian and Glen’s Letters](https://github.com/yetiki/cs50p/blob/main/problem-set-3/letter.py)
-- [Adieu, Adieu](https://github.com/yetiki/cs50p/blob/main/problem-set-3/adieu.py)
-- [Guessing Game](https://github.com/yetiki/cs50p/blob/main/problem-set-3/game.py)
-- [Little Professor](https://github.com/yetiki/cs50p/blob/main/problem-set-3/professor.py)
-- [Bitcoin Price Index](https://github.com/yetiki/cs50p/blob/main/problem-set-3/bitcoin.py)
+- [Emojize](https://github.com/yetiki/cs50p/blob/main/problem-set-4/fuel.py)
+- [Frank, Ian and Glen’s Letters](https://github.com/yetiki/cs50p/blob/main/problem-set-4/letter.py)
+- [Adieu, Adieu](https://github.com/yetiki/cs50p/blob/main/problem-set-4/adieu.py)
+- [Guessing Game](https://github.com/yetiki/cs50p/blob/main/problem-set-4/game.py)
+- [Little Professor](https://github.com/yetiki/cs50p/blob/main/problem-set-4/professor.py)
+- [Bitcoin Price Index](https://github.com/yetiki/cs50p/blob/main/problem-set-4/bitcoin.py)
 
 ### 5. Unit Tests
-- [Testing my twttr](https://github.com/yetiki/cs50p/blob/main/problem-set-4/twttr.py)
-- [Back to the Bank](https://github.com/yetiki/cs50p/blob/main/problem-set-4/bank.py)
-- [Re-requesting a Vanity Plate](https://github.com/yetiki/cs50p/blob/main/problem-set-4/plate.py)
-- [Refueling](https://github.com/yetiki/cs50p/blob/main/problem-set-4/fuel.py)
+- [Testing my twttr](https://github.com/yetiki/cs50p/blob/main/problem-set-5/twttr.py)
+- [Back to the Bank](https://github.com/yetiki/cs50p/blob/main/problem-set-5/bank.py)
+- [Re-requesting a Vanity Plate](https://github.com/yetiki/cs50p/blob/main/problem-set-5/plate.py)
+- [Refueling](https://github.com/yetiki/cs50p/blob/main/problem-set-5/fuel.py)
 
 ### 6. File I/O
-- [Lines of Code](https://github.com/yetiki/cs50p/blob/main/problem-set-5/lines.py)
-- [Pizza Py](https://github.com/yetiki/cs50p/blob/main/problem-set-5/pizza)
-- [Scourgify](https://github.com/yetiki/cs50p/blob/main/problem-set-5/scourgify)
-- [CS50 P-Shirt](https://github.com/yetiki/cs50p/blob/main/problem-set-5/shirt)
+- [Lines of Code](https://github.com/yetiki/cs50p/blob/main/problem-set-6/lines.py)
+- [Pizza Py](https://github.com/yetiki/cs50p/blob/main/problem-set-6/pizza)
+- [Scourgify](https://github.com/yetiki/cs50p/blob/main/problem-set-6/scourgify)
+- [CS50 P-Shirt](https://github.com/yetiki/cs50p/blob/main/problem-set-6/shirt)
 
 ### 7. Regular Expressions
-- [NUMB3RS](https://github.com/yetiki/cs50p/blob/main/problem-set-6/numb3rs)
-- [Watch on YouTube](https://github.com/yetiki/cs50p/blob/main/problem-set-6/watch)
-- [Working 9 to 5](https://github.com/yetiki/cs50p/blob/main/problem-set-6/working)
-- [Regular, um, Expressions](https://github.com/yetiki/cs50p/blob/main/problem-set-6/um)
-- [Response Validation](https://github.com/yetiki/cs50p/blob/main/problem-set-6/reponse)
+- [NUMB3RS](https://github.com/yetiki/cs50p/blob/main/problem-set-7/numb3rs)
+- [Watch on YouTube](https://github.com/yetiki/cs50p/blob/main/problem-set-7/watch)
+- [Working 9 to 5](https://github.com/yetiki/cs50p/blob/main/problem-set-7/working)
+- [Regular, um, Expressions](https://github.com/yetiki/cs50p/blob/main/problem-set-7/um)
+- [Response Validation](https://github.com/yetiki/cs50p/blob/main/problem-set-7/reponse)
 
 ### 8. Object-Oriented Programming
-- [Seasons of Love](https://github.com/yetiki/cs50p/blob/main/problem-set-6/seasons)
-- [Cookie Jar](https://github.com/yetiki/cs50p/blob/main/problem-set-6/jar)
-- [CS50 Shirtificate](https://github.com/yetiki/cs50p/blob/main/problem-set-6/shirtificate)
+- [Seasons of Love](https://github.com/yetiki/cs50p/blob/main/problem-set-8/seasons)
+- [Cookie Jar](https://github.com/yetiki/cs50p/blob/main/problem-set-8/jar)
+- [CS50 Shirtificate](https://github.com/yetiki/cs50p/blob/main/problem-set-8/shirtificate)
 
 ### 9. Et Cetera
 - [Final Project](https://github.com/yetiki/cs50p/blob/main/project)
