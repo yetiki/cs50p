@@ -2,63 +2,63 @@
 [CS50's Introduction to Programming with Python](https://www.edx.org/learn/python/harvard-university-cs50-s-introduction-to-programming-with-python)
 ## Table of Contents
 ### 0. Functions, Variables
-- Indoor Voice
-- Playback Speed
-- Making Faces
-- Einstein
-- Tip Calculator
+- [Indoor Voice](https://github.com/yetiki/cs50p/blob/main/problem-set-0/indoor.py)
+- [Playback Speed](https://github.com/yetiki/cs50p/blob/main/problem-set-0/playback.py)
+- [Making Faces](https://github.com/yetiki/cs50p/blob/main/problem-set-0/faces.py)
+- [Einstein](https://github.com/yetiki/cs50p/blob/main/problem-set-0/einstein.py)
+- [Tip Calculator](https://github.com/yetiki/cs50p/blob/main/problem-set-0/tip.py)
 
 ### 1. Conditionals
-- Deep Thought
-- Home Federal Savings Bank
-- File Extensions
-- Math Interpreter
-- Meal Time
+- [Deep Thought](https://github.com/yetiki/cs50p/blob/main/problem-set-1/extensions.py)
+- [Home Federal Savings Bank](https://github.com/yetiki/cs50p/blob/main/problem-set-1/bank.py)
+- [File Extensions](https://github.com/yetiki/cs50p/blob/main/problem-set-1/extensions.py)
+- [Math Interpreter](https://github.com/yetiki/cs50p/blob/main/problem-set-1/interpreter.py)
+- [Meal Time](https://github.com/yetiki/cs50p/blob/main/problem-set-1/meal.py)
 
 ### 2. Loops
-- camelCase
-- Coke Machine
-- Just setting up my twttr
-- Vanity Plates
-- Nutrition Facts
+- [camelCase](https://github.com/yetiki/cs50p/blob/main/problem-set-2/camel.py)
+- [Coke Machine](https://github.com/yetiki/cs50p/blob/main/problem-set-2/coke.py)
+- [Just setting up my twttr](https://github.com/yetiki/cs50p/blob/main/problem-set-2/twttr.py)
+- [Vanity Plates](https://github.com/yetiki/cs50p/blob/main/problem-set-2/plates.py)
+- [Nutrition Facts](https://github.com/yetiki/cs50p/blob/main/problem-set-2/nutrition.py)
 
 ### 3. Exceptions
-- Fuel Gauge
-- Felipe’s Taqueria
-- Grocery List
-- Outdated
+- [Fuel Gauge](https://github.com/yetiki/cs50p/blob/main/problem-set-3/fuel.py)
+- [Felipe’s Taqueria](https://github.com/yetiki/cs50p/blob/main/problem-set-3/taqueria.py)
+- [Grocery List](https://github.com/yetiki/cs50p/blob/main/problem-set-3/grocery.py)
+- [Outdated](https://github.com/yetiki/cs50p/blob/main/problem-set-3/outdated.py)
 
 ### 4. Libraries
-- Emojize
-- Frank, Ian and Glen’s Letters
-- Adieu, Adieu
-- Guessing Game
-- Little Professor
-- Bitcoin Price Index
+- [Emojize](https://github.com/yetiki/cs50p/blob/main/problem-set-3/fuel.py)
+- [Frank, Ian and Glen’s Letters](https://github.com/yetiki/cs50p/blob/main/problem-set-3/letter.py)
+- [Adieu, Adieu](https://github.com/yetiki/cs50p/blob/main/problem-set-3/adieu.py)
+- [Guessing Game](https://github.com/yetiki/cs50p/blob/main/problem-set-3/game.py)
+- [Little Professor](https://github.com/yetiki/cs50p/blob/main/problem-set-3/professor.py)
+- [Bitcoin Price Index](https://github.com/yetiki/cs50p/blob/main/problem-set-3/bitcoin.py)
 
 ### 5. Unit Tests
-- Testing my twttr
-- Back to the Bank
-- Re-requesting a Vanity Plate
-- Refueling
+- [Testing my twttr](https://github.com/yetiki/cs50p/blob/main/problem-set-4/twttr.py)
+- [Back to the Bank](https://github.com/yetiki/cs50p/blob/main/problem-set-4/bank.py)
+- [Re-requesting a Vanity Plate](https://github.com/yetiki/cs50p/blob/main/problem-set-4/plate.py)
+- [Refueling](https://github.com/yetiki/cs50p/blob/main/problem-set-4/fuel.py)
 
 ### 6. File I/O
-- Lines of Code
-- Pizza Py
-- Scourgify
-- CS50 P-Shirt
+- [Lines of Code](https://github.com/yetiki/cs50p/blob/main/problem-set-5/lines.py)
+- [Pizza Py](https://github.com/yetiki/cs50p/blob/main/problem-set-5/pizza)
+- [Scourgify](https://github.com/yetiki/cs50p/blob/main/problem-set-5/scourgify)
+- [CS50 P-Shirt](https://github.com/yetiki/cs50p/blob/main/problem-set-5/shirt)
 
 ### 7. Regular Expressions
-- NUMB3RS
-- Watch on YouTube
-- Working 9 to 5
-- Regular, um, Expressions
-- Response Validation
+- [NUMB3RS](https://github.com/yetiki/cs50p/blob/main/problem-set-6/numb3rs)
+- [Watch on YouTube](https://github.com/yetiki/cs50p/blob/main/problem-set-6/watch)
+- [Working 9 to 5](https://github.com/yetiki/cs50p/blob/main/problem-set-6/working)
+- [Regular, um, Expressions](https://github.com/yetiki/cs50p/blob/main/problem-set-6/um)
+- [Response Validation](https://github.com/yetiki/cs50p/blob/main/problem-set-6/reponse)
 
 ### 8. Object-Oriented Programming
-- Seasons of Love
-- Cookie Jar
-- CS50 Shirtificate
+- [Seasons of Love](https://github.com/yetiki/cs50p/blob/main/problem-set-6/seasons)
+- [Cookie Jar](https://github.com/yetiki/cs50p/blob/main/problem-set-6/jar)
+- [CS50 Shirtificate](https://github.com/yetiki/cs50p/blob/main/problem-set-6/shirtificate)
 
 ### 9. Et Cetera
-- Final Project
+- [Final Project](https://github.com/yetiki/cs50p/blob/main/project)
